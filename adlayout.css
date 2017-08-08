@@ -23,10 +23,15 @@ section#left_section{
 }
 
 br{ clear:both; }
-
-section#right_section{
-    float: right;
-    width: 25%;
+.pato {
+  border-style: solid;
+  margin-top: 40px;
+  max-width: 285px;
+  margin-left: 15%;
+  border-radius: 20px;
+}
+#right_section{
+    width: 35%;
     padding: 20px;
     /*height: 270px;*/
     background-color:#a9b4d8;
@@ -35,10 +40,11 @@ section#right_section{
     margin-right: 100px;
     border-radius: 10px;
     margin-top: 50px;
+    margin-left: 5%;
+    display: inline-block;
 }
 
-section#middle_section{
-  float: left;
+#middle_section{
   width: 40%;
   margin-top: 40px;
   /*height: 410px;*/
@@ -48,10 +54,39 @@ section#middle_section{
   font-family: 'Raleway', sans-serif;
   border-radius: 10px;
   padding: 20px;
+  display: inline-block;
+}
+
+footer {
+    text-align: center;
+    margin-top: 2%;
 }
 html {
     background-color:background-image: -webkit-gradient(linear, left top, left bottom, from(#f4f3f2), to(#967433));
     background-image: -webkit-linear-gradient(top, #f4f3f2, #967433);
     background-image: -moz-linear-gradient(top, #f4f3f2, #967433);
     background-image: linear-gradient(to bottom, #f4f3f2, #967433);
+}
+
+ul, li {
+  list-style-type: none;
+}
+
+.foods {
+  font-size: 50px;
+}
+
+.food_list {
+  font-size: 28px;
+  list-style-type: none;
+  margin-bottom: 15%;
+}
+
+.activities {
+  font-size: 50px;
+}
+
+.act_list {
+  list-style-type: none;
+  font-size: 28px;
 }
